@@ -1,0 +1,11 @@
+.tag {
+  padding-right: 5px;
+}
+
+.tag::after {
+  content: ','
+}
+
+.tag:last-child::after{
+  content: ''
+}
